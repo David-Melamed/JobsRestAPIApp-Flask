@@ -62,4 +62,4 @@ def delete_job(id: int):
     return jsonify(job), 200
 
 
-app.run(debug=True)
+app.run(debug=True, host="0.0.0.0", port=8001)
